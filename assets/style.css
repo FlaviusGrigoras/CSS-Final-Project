@@ -214,10 +214,82 @@ h1 {
   margin: 0 8px;
 }
 
+.section-3 .images img:hover {
+  scale: 1.15;
+}
+
 .section-3 .images img:first-child {
   margin-left: 0;
 }
 
 .section-3 .images img:last-child {
   margin-right: 0;
+}
+
+.section-4 {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.information2 p {
+  border: 1px dotted var(--rose-red);
+  color: var(--silver-chalice);
+  font-weight: 700;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.image-circle {
+  background: linear-gradient(var(--violet), var(--rose-red));
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.image-circle:hover{
+    transform: scaleY(-1) rotate(180deg);
+}
+
+.information2 img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  overflow: visible;
+}
+
+.robot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 36px;
+}
+
+.small-circle p{
+    position: absolute;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 1px var(--rose-red) solid;
+    top:-10px;
+    right: 30px;
+    transform: translateZ(0);
 }
