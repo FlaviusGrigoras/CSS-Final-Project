@@ -23,7 +23,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Heebo", serif;
+  font-family: 'Heebo', Arial, Helvetica, sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -53,11 +53,16 @@ li {
 li:hover,
 li:active {
   border-bottom: 2px solid var(--dark-purple);
+  margin-bottom: -2px;
 }
 
 main {
-  padding: 24px 75px;
   display: flex;
+  justify-content: space-around;
+  margin-left: 9.7%;
+  margin-right: 6%;
+  margin-top: 3.6%;
+  width: auto;
 }
 
 main > img {
@@ -75,7 +80,7 @@ main > img:hover {
 .right-container h1 {
   color: var(--white);
   font-weight: 500;
-  font-size: 40px;
+  font-size: 60px;
   margin-bottom: 24px;
 }
 
