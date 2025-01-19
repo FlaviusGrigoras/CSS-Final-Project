@@ -194,12 +194,16 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100dvh;
+  height: 50dvh;
 }
 
 .section-3 h1 {
   margin-top: 15%;
   font-size: 64px;
+}
+
+.section-3 hr {
+  margin-bottom: 24px;
 }
 
 .section-3 .images {
@@ -227,7 +231,7 @@ h1 {
 }
 
 .section-4 {
-  height: 100dvh;
+  height: 50dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -260,12 +264,12 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-bottom: 12px;
-  margin-top: 100px;
+  margin-top: 24px;
   position: relative;
 }
 
-.image-circle:hover{
-    transform: scaleY(-1) rotate(180deg);
+.image-circle:hover {
+  transform: scaleY(-1) rotate(180deg);
 }
 
 .information2 img {
@@ -284,12 +288,16 @@ h1 {
   padding: 0 36px;
 }
 
-.small-circle p{
-    position: absolute;
-    border-radius: 50%;
-    background-color: var(--white);
-    border: 1px var(--rose-red) solid;
-    top:-10px;
-    right: 30px;
-    transform: translateZ(0);
+.small-circle p {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 1px var(--rose-red) solid;
+  top: -10px;
+  right: 30px;
+  transform: translateZ(0);
+}
+
+.section-5 {
+  background: linear-gradient(var(--purple-pizzazz), var(--dark-purple));
 }
