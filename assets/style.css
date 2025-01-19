@@ -194,7 +194,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50dvh;
+  height: 100dvh;
 }
 
 .section-3 h1 {
@@ -231,7 +231,7 @@ h1 {
 }
 
 .section-4 {
-  height: 50dvh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
