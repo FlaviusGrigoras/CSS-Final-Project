@@ -320,7 +320,7 @@ h1 {
 
 .image-section {
   text-align: center;
-  transform: scaleX(-1);
+  transform: scaleY(-1);
 }
 
 .image-section img {
