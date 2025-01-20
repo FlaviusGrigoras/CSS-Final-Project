@@ -181,11 +181,11 @@ h1 {
 }
 
 .section-2 img {
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .section-2 img:hover {
-  transform: scaleX(-1) rotate(180deg);
+  transform: scaleX(-1);
 }
 
 .section-3 {
@@ -276,7 +276,7 @@ h1 {
 }
 
 .image-circle:hover {
-  transform: scaleY(-1) rotate(180deg);
+  transform: scaleX(-1);
 }
 
 .information2 img {
@@ -284,6 +284,7 @@ h1 {
   height: 50%;
   object-fit: cover;
   overflow: visible;
+  transition: transform 2s ease;
 }
 
 .robot {
