@@ -68,6 +68,7 @@ main {
 main > img {
   width: 38%;
   margin-right: 150px;
+  transition: transform 0.5s ease;
 }
 main > img:hover {
   margin-top: 50px;
@@ -118,9 +119,10 @@ main > img:hover {
   border: white 3px solid;
   border-radius: 50%;
 
-  position: absolute;
+  position: fixed;
   left: 32px;
   bottom: 32px;
+  transform: scaleZ(1);
 }
 
 .whatsapp img {
