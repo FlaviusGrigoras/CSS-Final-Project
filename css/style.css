@@ -867,10 +867,10 @@ footer p {
   }
 
   .text-section > p {
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 
-  .info {
+  .section-5 .info {
     flex-direction: row;
   }
   .info img {
